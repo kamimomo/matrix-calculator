@@ -9,5 +9,5 @@ class det:
             for i in range (0, len(arr)):
                 temp = 1
                 for j in range(0, len(arr[0])):
-                    temp 
+                    temp *= arr[i][j]
                 res += temp
